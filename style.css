@@ -19,7 +19,7 @@ body {
 .container {
   width:  480px;
   height: 620px;
-  background-color: #ffffff;
+  background-color: #3d3c3c;
   display: flex;
   flex-direction: column; 
   align-items: center;
@@ -31,7 +31,10 @@ body {
 #form {
   width: 90%;
 }
-
+.heading{
+  color: #ffffff;
+  word-spacing: -10px;
+}
 .form-group {
   height: 65px;
 }
@@ -39,6 +42,7 @@ body {
 label {
   position: relative;
   bottom: 3px ;
+  color: #ffffff;
 }
 
 input {
@@ -91,7 +95,7 @@ button:focus {
    margin-top: 3%;
    display: flex;
    justify-content: center;
-   color: black;
+   color: #ffff;
 }
 
 .success {
